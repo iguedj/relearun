@@ -26,5 +26,5 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      name: Test de la version PHP
+      - name: Test de la version
       run: php -v
